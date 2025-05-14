@@ -1,5 +1,7 @@
-const int lm335Pin = 34;     // Entrada do sensor LM335
-const int pwmPin = 16;       // Saída PWM para controlar os MOSFETs (ajuste conforme seu circuito)
+//const int lm335Pin = 34;     // Entrada do sensor LM335 (Esp32W)
+const int lm335Pin = 1;     // Entrada do sensor LM335 (esp32_c3_supermini)
+//const int pwmPin = 16;       // Saída PWM para controlar os MOSFETs (ajuste conforme seu circuito) (Esp32W)
+const int pwmPin = 2;       // Saída PWM para controlar os MOSFETs (ajuste conforme seu circuito)(esp32_c3_supermini)
 
 const float targetTemp = 40.0; // Temperatura alvo em °C
 
